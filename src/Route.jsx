@@ -6,7 +6,7 @@ import GetAdmission from "./GetAdmission";
 import Contact from './Contact';
 
 
-import {   Route , BrowserRouter, Switch} from 'react-router-dom';
+import {   Route,Redirect , BrowserRouter, Switch} from 'react-router-dom';
 
 const Route1=()=>
 {
@@ -23,7 +23,9 @@ const Route1=()=>
                 <Route exact path="/GoodScore" component={GoodScore} />
             
                 <Route exact path="/Getadmission" component={GetAdmission} />
+                <Redirect to="/" />
                 </Switch>
+
         </BrowserRouter>
         </>
     )
