@@ -17,7 +17,7 @@ const Home=()=>
                 </div>
 
                 <div className="col-md-6">
-                <a href="https://www.facebook.com/groups/244405847268315/?ref=share" class="btn btn-primary">Contact_me</a>
+                <a href="https://www.facebook.com/groups/244405847268315/?ref=share" class="btn btn-primary">Join My facebook Group</a>
                 </div>
 
             </div>
