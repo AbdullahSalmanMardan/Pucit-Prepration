@@ -4,7 +4,6 @@ import TestDetail from "./TestDetail"
 import GoodScore from "./GoodScore";
 import GetAdmission from "./GetAdmission";
 import Contact from './Contact';
-import { HashRouter } from 'react-router-dom'
 
 import {   Route,Redirect , BrowserRouter, Switch} from 'react-router-dom';
 
@@ -12,7 +11,7 @@ const Route1=()=>
 {
     return (
         <>
-        <HashRouter>
+        <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
                 
@@ -26,7 +25,7 @@ const Route1=()=>
                 <Redirect to="/" />
                 </Switch>
 
-     </HashRouter>
+        </BrowserRouter>
         </>
     )
 }
