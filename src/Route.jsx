@@ -11,7 +11,7 @@ const Route1=()=>
 {
     return (
         <>
-        
+        <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
                 
@@ -25,7 +25,7 @@ const Route1=()=>
                 <Redirect to="/" />
                 </Switch>
 
-       
+        </BrowserRouter>
         </>
     )
 }
