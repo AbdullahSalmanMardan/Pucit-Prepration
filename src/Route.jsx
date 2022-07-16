@@ -14,15 +14,15 @@ const Route1=()=>
         <>
         <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={Home} />
+                <Route exact path="pucit-prepration/" component={Home} />
                 
-                <Route exact path="/contact" component={Contact} />
+                <Route exact path="pucit-prepration/contact" component={Contact} />
                 
-                <Route exact path="/Testdetail" component={TestDetail} />
+                <Route exact path="pucit-prepration/Testdetail" component={TestDetail} />
             
-                <Route exact path="/GoodScore" component={GoodScore} />
+                <Route exact path="pucit-prepration/GoodScore" component={GoodScore} />
             
-                <Route exact path="/Getadmission" component={GetAdmission} />
+                <Route exact path="pucit-prepration/Getadmission" component={GetAdmission} />
                 <Redirect to="/" />
                 </Switch>
 
