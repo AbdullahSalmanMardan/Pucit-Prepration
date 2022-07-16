@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/%20pucit-prepration/static/css/main.8079db08.css",
+    "main.js": "/%20pucit-prepration/static/js/main.19b0ea56.js",
+    "static/media/pucit.jpg": "/%20pucit-prepration/static/media/pucit.644deed56843c35fbadb.jpg",
+    "index.html": "/%20pucit-prepration/index.html",
+    "main.8079db08.css.map": "/%20pucit-prepration/static/css/main.8079db08.css.map",
+    "main.19b0ea56.js.map": "/%20pucit-prepration/static/js/main.19b0ea56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8079db08.css",
+    "static/js/main.19b0ea56.js"
+  ]
+}
